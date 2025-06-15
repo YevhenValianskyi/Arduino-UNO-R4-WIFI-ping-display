@@ -1,30 +1,30 @@
 # Arduino Uno R4 Ping Display with LED Matrix
 
-This project visualizes the current ping time on a 12x8 LED matrix. The lower the ping, the higher the bar display.
+This project visualizes the current ping time on a 12x8 LED matrix. The lower the ping, the higher the bar displayed.
 
 ## 🔧 Hardware
 
-- Arduino Uno R4 (only supported board)
-- Arduino LED matrix (12x8)
-- Wi-Fi connection (SSID + password)
+- Arduino Uno R4 (only supported board)  
+- 12x8 LED matrix (connected via I2C)  
+- Wi-Fi connection (SSID + password)  
 
 ## 💡 Features
 
-- Connects to `clients3.google.com`
-- Measures ping time using WiFi connection methods supported on Uno R4
-- Displays the ping time as bars on the LED matrix
-- Bars scroll to the right to show historical data
+- Connects to `clients3.google.com`  
+- Measures ping time using WiFi methods supported on the Uno R4  
+- Displays the ping time as bars on the LED matrix  
+- Bars scroll to the right to show historical data  
 
 ## 📚 Used Libraries
 
-- `WiFiS3.h`
-- `Arduino_LED_Matrix.h`
+- `WiFiS3.h`  
+- `Arduino_LED_Matrix.h`  
 
 ## ⚙️ Setup
 
-1. Enter your Wi-Fi credentials in the code (`ssid`, `password`)
-2. Connect the LED matrix via I2C
-3. Upload the sketch to your Arduino Uno R4 board
+1. Enter your Wi-Fi credentials in the code (`ssid`, `password`)  
+2. Connect the LED matrix via I2C  
+3. Upload the sketch to your Arduino Uno R4 board  
 
 ## 📊 Bar Height (Ping in ms)
 
