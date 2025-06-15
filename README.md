@@ -1,5 +1,7 @@
 # Arduino Uno R4 WIFI (Type-C USB) Ping Display with LED Matrix
 
+![Arduino Uno R4 WIFI Ping Display](images/logo.jpg)
+
 This project visualizes the current ping time on a 12x8 LED matrix. The lower the ping, the higher the bar displayed.
 
 ## 🔧 Hardware
