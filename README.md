@@ -1,17 +1,17 @@
-# Arduino Uno R4 WIFI TYPE-C Ping Display with LED Matrix
+# Arduino Uno R4 WIFI (Type-C USB) Ping Display with LED Matrix
 
 This project visualizes the current ping time on a 12x8 LED matrix. The lower the ping, the higher the bar displayed.
 
 ## 🔧 Hardware
 
-- Arduino Uno R4 (only supported board)  
+- Arduino Uno R4 WIFI (Type-C USB) — only supported board  
 - 12x8 LED matrix (connected via I2C)  
 - Wi-Fi connection (SSID + password)  
 
 ## 💡 Features
 
 - Connects to `clients3.google.com`  
-- Measures ping time using WiFi methods supported on the Uno R4  
+- Measures ping time using WiFi methods supported on the Uno R4 WIFI  
 - Displays the ping time as bars on the LED matrix  
 - Bars scroll to the right to show historical data  
 
@@ -24,7 +24,7 @@ This project visualizes the current ping time on a 12x8 LED matrix. The lower th
 
 1. Enter your Wi-Fi credentials in the code (`ssid`, `password`)  
 2. Connect the LED matrix via I2C  
-3. Upload the sketch to your Arduino Uno R4 board  
+3. Upload the sketch to your Arduino Uno R4 WIFI board  
 
 ## 📊 Bar Height (Ping in ms)
 
@@ -44,7 +44,7 @@ This project visualizes the current ping time on a 12x8 LED matrix. The lower th
 
 ## ⚠️ Note
 
-This project works **only** on Arduino Uno R4 with a 12x8 LED matrix.
+This project works **only** on the Arduino Uno R4 WIFI (Type-C USB) board with a 12x8 LED matrix.
 
 Make sure to set your own Wi-Fi credentials:
 
