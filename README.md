@@ -25,8 +25,7 @@ This project visualizes the current ping time on a 12x8 LED matrix. The lower th
 ## ⚙️ Setup
 
 1. Enter your Wi-Fi credentials in the code (`ssid`, `password`)  
-2. Connect the LED matrix via I2C  
-3. Upload the sketch to your Arduino Uno R4 WIFI board  
+2. Upload the sketch to your Arduino Uno R4 WIFI board  
 
 ## 📊 Bar Height (Ping in ms)
 
