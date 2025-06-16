@@ -7,7 +7,6 @@ This project visualizes the current ping time on a 12x8 LED matrix. The lower th
 ## 🔧 Hardware
 
 - Arduino Uno R4 WIFI (Type-C USB) — only supported board  
-- 12x8 LED matrix (connected via I2C)  
 - Wi-Fi connection (SSID + password)  
 
 ## 💡 Features
